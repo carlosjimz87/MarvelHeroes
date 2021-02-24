@@ -1,4 +1,4 @@
-package com.carlosjimz87.marvelheroes.ui.main
+package com.carlosjimz87.marvelheroes.ui.list
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -8,13 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.carlosjimz87.marvelheroes.R
 
-class MainFragment : Fragment() {
+class ListFragment : Fragment() {
 
     companion object {
-        fun newInstance() = MainFragment()
+        fun newInstance() = ListFragment()
     }
 
-    private lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: ListViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
@@ -23,7 +23,7 @@ class MainFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(ListViewModel::class.java)
         // TODO: Use the ViewModel
     }
 
