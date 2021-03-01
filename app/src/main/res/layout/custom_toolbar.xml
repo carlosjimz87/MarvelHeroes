@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/back"
+    android:id="@+id/customToolbar"
+    android:theme="@style/Theme.MarvelHeroes.AppBarOverlay">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+        android:src="@drawable/marvel_heroes_title"
+        android:contentDescription="@string/marvel_heroes_title" />
+</Toolbar>

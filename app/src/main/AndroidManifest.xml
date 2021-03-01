@@ -3,10 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.carlosjimz87.marvelheroes">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo_round"
+        android:allowBackup="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.MarvelHeroes"
         tools:ignore="AllowBackup">

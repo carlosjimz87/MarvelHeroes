@@ -12,4 +12,6 @@
     <string name="marvel_heroes_logo">Marvel Heroes Logo</string>
     <string name="marvel_heroes_title">Marvel Heroes Title</string>
     <string name="made_by_text">Made by\n <span style="color|front|text-decoration">@carlosjimz87</span></string>
+    <string name="hero_image">hero image</string>
+    <string name="hero_name">ABOMINATION</string>
 </resources>

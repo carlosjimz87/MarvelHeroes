@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_marvel_heroes_logo" />
+        app:srcCompat="@drawable/marvel_heroes_logo" />
 
     <ImageView
         android:id="@+id/marvel_heroes_title"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_marvel_heroes_title" />
+        app:srcCompat="@drawable/marvel_heroes_title" />
 
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

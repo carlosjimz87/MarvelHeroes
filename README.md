@@ -40,7 +40,7 @@ In the UI, we will be using **Material Desing** components mostly. For the list 
 
 ## *Extras*
 
-- [ ] Splash screen with **Motion Layout**.
+- [X] Splash screen with **Motion Layout**.
 - [ ] Dependency Injection with **Hilt**.
 - [ ] Animations for fragment transitions and UI components.
 - [ ] Day/Night mode.
